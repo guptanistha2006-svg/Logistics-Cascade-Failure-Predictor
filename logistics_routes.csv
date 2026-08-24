@@ -1,0 +1,32 @@
+source_id,target_id,route_name,distance_km,transport_time_days,capacity,delay_probability
+1,4,Supplier_A to Warehouse_X,400,2,800,0.15
+1,5,Supplier_A to Warehouse_Y,800,4,600,0.2
+2,4,Supplier_B to Warehouse_X,1000,5,700,0.18
+2,6,Supplier_B to Warehouse_Z,600,3,900,0.12
+3,5,Supplier_C to Warehouse_Y,1200,6,500,0.22
+3,6,Supplier_C to Warehouse_Z,400,2,800,0.14
+4,7,Warehouse_X to Factory_1,300,1.5,1200,0.1
+4,8,Warehouse_X to Factory_2,500,2.5,1000,0.12
+5,7,Warehouse_Y to Factory_1,700,3.5,900,0.15
+5,8,Warehouse_Y to Factory_2,400,2,1100,0.11
+6,7,Warehouse_Z to Factory_1,500,2.5,950,0.13
+6,8,Warehouse_Z to Factory_2,600,3,1050,0.14
+7,9,Factory_1 to DC_North,350,1.5,1500,0.08
+7,10,Factory_1 to DC_South,450,2,1400,0.09
+7,11,Factory_1 to DC_East,800,4,1200,0.14
+8,9,Factory_2 to DC_North,500,2.5,1600,0.1
+8,10,Factory_2 to DC_South,300,1.5,1500,0.08
+8,11,Factory_2 to DC_East,700,3.5,1300,0.12
+9,12,DC_North to Customer_Group_1,200,1,800,0.05
+9,13,DC_North to Customer_Group_2,150,1,850,0.05
+9,16,DC_North to Customer_Group_5,250,1.5,700,0.07
+10,14,DC_South to Customer_Group_3,100,0.5,900,0.03
+10,15,DC_South to Customer_Group_4,300,1.5,800,0.06
+11,13,DC_East to Customer_Group_2,400,2,750,0.08
+11,17,DC_East to Customer_Group_6,100,0.5,850,0.04
+12,12,Customer_Group_1 self,0,0,400,0
+13,13,Customer_Group_2 self,0,0,350,0
+14,14,Customer_Group_3 self,0,0,380,0
+15,15,Customer_Group_4 self,0,0,300,0
+16,16,Customer_Group_5 self,0,0,320,0
+17,17,Customer_Group_6 self,0,0,280,0
